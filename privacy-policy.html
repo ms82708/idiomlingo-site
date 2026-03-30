@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IdiomLingo — Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        max-width: 860px;
+        margin: 40px auto;
+        padding: 0 20px 40px;
+        line-height: 1.55;
+      }
+      h1 {
+        font-size: 32px;
+        margin: 0 0 18px;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 28px 0 10px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      ul {
+        margin: 10px 0 10px 20px;
+        padding: 0;
+      }
+      li {
+        margin: 6px 0;
+      }
+      a {
+        color: inherit;
+      }
+      .meta {
+        margin-top: 2px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+      @media (prefers-color-scheme: dark) {
+        .meta {
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid rgba(127, 127, 127, 0.35);
+        margin: 26px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IdiomLingo Privacy Policy</h1>
+
+    <h2>App and Developer</h2>
+    <p><strong>IdiomLingo</strong> is a mobile app for learning English idioms.</p>
+    <p>Developer: Serghei Muzicica (sdev@protonmail.com)</p>
+
+    <h2>What Data We Collect</h2>
+    <p><strong>We do not collect or store personal data on our servers.</strong> The app does not require:</p>
+    <ul>
+      <li>User accounts, sign-in, or registration</li>
+      <li>Your name, email, or phone number</li>
+      <li>Location access</li>
+      <li>Contact lists or device identifiers</li>
+    </ul>
+    <p>
+      The app stores learning progress and settings <strong>locally on your device only</strong> using AsyncStorage.
+    </p>
+
+    <h2>How Data Is Used</h2>
+    <p>The app uses <strong>local storage</strong> (AsyncStorage) to save:</p>
+    <ul>
+      <li>Learning progress (which idioms you've learned)</li>
+      <li>Favorite idioms</li>
+      <li>Study streak and simple learning statistics</li>
+      <li>App settings (text size, auto-play audio, etc.)</li>
+    </ul>
+    <p>Your learning data is stored <strong>only on your device</strong> and is not uploaded by us.</p>
+
+    <h2>Audio Files</h2>
+    <p>
+      The app uses expo-av for audio playback. Audio files with idiom pronunciations are loaded from a cloud storage CDN
+      (Cloudflare R2) over HTTPS.
+    </p>
+    <p>
+      When your device requests audio, Cloudflare processes technical data necessary for content delivery and security
+      (such as IP address and request timestamp) according to their privacy information:
+      <a href="https://www.cloudflare.com/trust-hub/privacy-and-data-protection/"
+        >https://www.cloudflare.com/trust-hub/privacy-and-data-protection/</a
+      >
+    </p>
+    <p>
+      We do not receive, store, or have access to this technical data, and we do not track which specific user plays
+      which audio.
+    </p>
+
+    <h2>Advertising and Analytics</h2>
+    <p><strong>We have none:</strong></p>
+    <ul>
+      <li>No advertising (Google AdMob, banner ads, etc.)</li>
+      <li>No analytics (Google Analytics, Firebase, etc.)</li>
+      <li>No trackers or counters</li>
+    </ul>
+
+    <h2>Data Storage and Security</h2>
+    <p>
+      All data is stored exclusively on your device using Expo/React Native's built-in storage system (AsyncStorage). We
+      don't use cloud servers or external databases.
+    </p>
+    <p>If you delete the app, all data will be permanently deleted.</p>
+
+    <h2>Your Rights</h2>
+    <p>You can delete all your data at any time by:</p>
+    <ul>
+      <li>Using in-app options (Settings → Clear favorites / Reset all progress)</li>
+      <li>Clearing app data in device settings (Settings → Apps → IdiomLingo → Storage → Clear Data)</li>
+      <li>Uninstalling the app</li>
+    </ul>
+
+    <h2>Third-Party Data Sharing</h2>
+    <p>
+      We do not sell or share your personal data with third parties. The only third-party service involved is Cloudflare
+      (R2) for hosting and delivering audio files, as described above. There is no cloud sync and no external
+      analytics/advertising services.
+    </p>
+    <p>Your learning data stays on your phone. Audio content is delivered from Cloudflare R2 when you choose to play it.</p>
+
+    <h2>Third-Party Libraries</h2>
+    <p>The app uses open-source libraries including (but not limited to):</p>
+    <ul>
+      <li>React Native (MIT License)</li>
+      <li>Expo (MIT License)</li>
+      <li>React Navigation (MIT License)</li>
+      <li>@react-native-async-storage/async-storage (MIT License)</li>
+      <li>expo-av (MIT License)</li>
+      <li>react-native-safe-area-context (MIT License)</li>
+      <li>react-native-screens (MIT License)</li>
+      <li>react-native-svg (MIT License)</li>
+    </ul>
+    <p>These libraries are used for app functionality and do not collect personal data.</p>
+
+    <h2>Policy Changes</h2>
+    <p>
+      If we make changes to this privacy policy, we'll publish the updated version here. The effective date is below.
+    </p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about privacy or suggestions for improving the app, reach out to us:</p>
+    <p><strong>Email:</strong> sdev@protonmail.com</p>
+
+    <h2>Children's Privacy</h2>
+    <p>IdiomLingo is suitable for users of all ages, including children under 13.</p>
+    <p>
+      We do not knowingly collect personal information from children. The app does not require accounts or user profiles
+      and does not collect personal data from users.
+    </p>
+
+    <hr />
+    <p class="meta"><em>Effective date: March 30, 2026</em></p>
+  </body>
+</html>
